@@ -13,7 +13,7 @@ public class Usuario{
         iPhone.ligar("12345678");
         iPhone.iniciarCorreioVoz();
         //Testando o Navegador de Internet
-        System.out.println("----Navegador de Internet----");
+        System.out.printl("----Navegador de Internet----");
         iPhone.exibirPagina("https://www.dio.me/sign-in");
         iPhone.atualizarPagina();
         iPhone.adicionarNovaAba();
